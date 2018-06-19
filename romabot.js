@@ -32,8 +32,16 @@ client.on("message", (message) => {
 
   if (message.content.toLowerCase().includes ("vore")) {
     message.channel.send("***No.***");
+  } else
+
+  if (message.content.toLowerCase().includes ("good morning")) {
+    message.channel.send("Buongiorno! :heart:");
+  } else
+
+  if (message.content.toLowerCase().includes ("good night")) {
+    message.channel.send("Buonanotte! :heart:");
   }
-  
+
 });
 
 client.login("NDU4NDE4NzYxNDg2MTcyMTYw.DgnaTg.C7OHM3WMRo1Qgt1MwuI0XL2Bk1Q");
