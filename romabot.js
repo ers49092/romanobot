@@ -5,6 +5,11 @@ client.on("ready", () => {
   console.log("I am ready!");
 });
 
+var http = require("http");
+setInterval(function() {
+    http.get("http://romanobot.herokuapp.com");
+}, 900000);
+
 client.on("message", (message) => {
   if (message.content.toLowerCase().includes ("spamano")) {
     message.channel.send(":eyes:");
