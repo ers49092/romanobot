@@ -45,6 +45,7 @@ client.on("message", (message) => {
     
 if (message.content.toLowerCase().includes ("hewwo")) {
     message.channel.send("OwO");
+}
 
 });
 
