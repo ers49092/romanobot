@@ -41,7 +41,10 @@ client.on("message", (message) => {
 
   if (message.content.toLowerCase().includes ("good night romabot")) {
     message.channel.send("Buonanotte! :heart:");
-  }
+  } else
+    
+if (message.content.toLowerCase().includes ("hewwo")) {
+    message.channel.send("OwO");
 
 });
 
