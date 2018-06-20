@@ -11,7 +11,7 @@ setInterval(function() {
 }, 900000);
 
 client.on("message", (message) => {
-  if (message.content.toLowerCase().includes ("spamano")) {
+  if (message.content.toLowerCase().includes ("spain bot")) {
     message.channel.send(":eyes:");
   } else
 
@@ -19,19 +19,15 @@ client.on("message", (message) => {
     message.channel.send("pineapple doesn't belong on pizza, fuck off");
   } else
 
-  if (message.content.toLowerCase().includes ("spain")) {
+  if (message.content.toLowerCase().includes ("spagna")) {
     message.channel.send("amore :heart:");
   } else
 
-  if (message.content.toLowerCase().includes ("kota")) {
-    message.channel.send("Oh kin");
+  if (message.content.toLowerCase().includes ("alfie bot")) {
+    message.channel.send("that bastard owes me .3 bitcoin");
   } else
 
-  if (message.content.toLowerCase().includes ("hewwo")) {
-    message.channel.send("owo");
-  } else
-
-  if (message.content.toLowerCase().includes ("ily")) {
+  if (message.content.toLowerCase().includes ("ily romabot")) {
     message.channel.send("I love you too! :kissing_heart:");
   } else
 
@@ -39,11 +35,11 @@ client.on("message", (message) => {
     message.channel.send("***No.***");
   } else
 
-  if (message.content.toLowerCase().includes ("good morning")) {
+  if (message.content.toLowerCase().includes ("good morning romabot")) {
     message.channel.send("Buongiorno! :heart:");
   } else
 
-  if (message.content.toLowerCase().includes ("good night")) {
+  if (message.content.toLowerCase().includes ("good night romabot")) {
     message.channel.send("Buonanotte! :heart:");
   }
 
