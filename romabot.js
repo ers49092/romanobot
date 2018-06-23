@@ -10,6 +10,18 @@ setInterval(function() {
     http.get("http://romanobot.herokuapp.com");
 }, 900000);
 
+client.on('message', message =>{
+	if (message.content.toLowerCase().includes ('roast me')) {
+		var choices = ['Given the fact that you are on the spamano server, it is statistically likely that you are either a furry, a gay bottom, or both. Do I really need to roast you when all of that is already happening?',
+    'You look like the kind of person that would unironically wear crocs.',
+    'But I love you :c','I know what shoes you have in your closet, and I disapprove of all of them.',
+    'Every time you keysmash my lifespan gets shorter. I have about five minutes left at this rate...',
+    'If I had a tumblr I would block you.'];
+		var response = Math.floor(Math.random() * choices.length);
+    message.channel.send(choices[response]);
+	}
+});
+
 client.on("message", (message) => {
   if (message.content.toLowerCase().includes ("spain bot")) {
     message.channel.send(":eyes:");
