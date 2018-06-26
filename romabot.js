@@ -54,14 +54,14 @@ client.on("message", (message) => {
   if (message.content.toLowerCase().includes ("good night romabot")) {
     message.channel.send("Buonanotte! :heart:");
   } else
-    
-if (message.content.toLowerCase().includes ("hewwo")) {
+
+  if (message.content.toLowerCase().includes ("hewwo")) {
     message.channel.send("OwO");
-} else
-	
-  if (message.content.toLowerCase().includes ("I LOVE YOU MORE!!!!! :two_hearts:")) {
+  } else
+
+  if (message.content.toLowerCase().includes ("i love you more!!!!! :two_hearts:")) {
     message.channel.send("But you love me most, right Toni?");
- }
+  }
 
 });
 
