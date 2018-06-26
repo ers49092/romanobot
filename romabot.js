@@ -61,6 +61,10 @@ client.on("message", (message) => {
 
   if (message.content.toLowerCase().includes ("i love you more!!!!! :two_hearts:")) {
     message.channel.send("But you love me most, right Toni?");
+  } else
+
+  if (message.content.toLowerCase().includes ("what about meeeeeeeeeeee ??")) {
+    message.channel.send("Sorry, do I  know you?");
   }
 
 });
