@@ -69,4 +69,4 @@ client.on("message", (message) => {
 
 });
 
-client.login("delicioustomato");
+client.login(process.env.delicioustomato);
