@@ -69,4 +69,4 @@ client.on("message", (message) => {
 
 });
 
-client.login("NDU4NDE4NzYxNDg2MTcyMTYw.DgnaTg.C7OHM3WMRo1Qgt1MwuI0XL2Bk1Q");
+client.login("delicioustomato");
